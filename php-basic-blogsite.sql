@@ -44,8 +44,7 @@ CREATE TABLE `blogs` (
 
 INSERT INTO `blogs` (`id`, `header`, `info1`, `code1`, `info2`, `code2`, `info3`) VALUES
 (9, 'Making graident colors in xml (android studio)', 'Hello , today im gonna teach you how to make graident colors in xml ;\r\n\r\nFirst right click drawble\r\nand create new drawble resource file\r\n\r\nand paste this code', '<shape xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:shape=\"rectangle\">\r\n    <gradient\r\n        android:angle=\"315\"\r\n        android:type=\"linear\"\r\n        android:startColor=\"first color\"\r\n        android:centerColor=\"middle color\"\r\n        android:endColor=\"end color\"\r\n        />\r\n</shape>', '', '', ''),
-(10, 'deneme', 'dasdsadasd', 'adasdasdasdadasd', 'dasdadadasda', 'dasdasdasdasd', 'adasdasda'),
-(11, 'beyza', 'beyza 123', 'print(\'i love you\')', '', '', '');
+(10, 'deneme', 'dasdsadasd', 'adasdasdasdadasd', 'dasdadadasda', 'dasdasdasdasd', 'adasdasda');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
